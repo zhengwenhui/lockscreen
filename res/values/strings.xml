@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LockScreenV4Activity!</string>
+    <string name="app_name">泡泡锁屏</string>
+    <!-- <string	name="am">上午</string> -->
+    <!-- <string	name="pm">下午</string> -->
+    <string name="lock_screen">锁屏</string>
+    <string name="lock_screen_method">选择泡泡</string>
+    <string name="select_lock_screen_method">选择泡泡</string>
+    <string name="set_lock_screen">自定义解屏方式</string>
+    <string name="are_you_sure">确定要恢复默认？</string>
+    <string name="set_lock_screen_method">泡泡设置</string>
+    <string name="set_lock_screen_method_dialog">泡泡设置 （最多选五个）</string>
+    <string name="show">显示</string>
+    <string name="background">背景</string>
+    <string name="background_picture">背景图片</string>
+    <string name="colorpiker">背景颜色</string>
+    <string name="colorpiker_sample">示例</string>
+    <string name="colorpiker_set">设置背景颜色</string>
+    <string name="background_color_alpha">背景透明度</string>
+    <string name="show_set">字体颜色</string>
+    <string name="show_choice">显示内容</string>
+    <string name="voice_vibrate">声音和振动</string>
+    <string name="voice">声音</string>
+    <string name="vibrate">振动</string>
+    <string name="wday_month_day_no_year">MMMM d,EEEE </string>
+    <string name="wday">EEEE </string>
+    <string name="month_day_no_year">MMMM d </string>
+
+    <string-array name="department">
+        <item>透明气球</item>
+        <item>绿色地球</item>
+        <item>足球</item>
+        <item>彩环</item>
+        <item>白球</item>
+        <item>地球</item>
+        <item>铁圈</item>
+    </string-array>
+    <string-array name="department_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="b">透明气球</string>
+    <string name="e">绿色地球</string>
+    <string name="g">足球</string>
+    <string name="j">彩环</string>
+    <string name="f">白球</string>
+    <string name="h">地球</string>
+    <string name="i">铁圈</string>
+
+    <string-array name="show_choice">
+        <item>状态通知栏</item>
+        <item>时间</item>
+        <item>日期</item>
+        <item>农历日期</item>
+        <item>星期</item>
+        <!-- <item>闹钟</item> -->
+        <item>电池</item>
+        <item>闹钟</item>
+    </string-array>
+    <string-array name="show_choice_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!--
+     	<string-array name="show_set"> 
+		<item>白色</item>
+		<item>黑色</item>
+		<item>蓝色</item>
+	</string-array>
+	
+	<string-array name="show_set_value">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    -->
+
+    <string-array name="background">
+        <item>无</item>
+        <!--
+        <item>壁纸</item>
+		<item>动漫</item>
+		<item>女孩</item>
+        -->
+        <item>图片1</item>
+        <item>图片2</item>
+        <item>图片3</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="background_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!--
+     	<string-array name="day_of_week">
+		<item>星期天</item>
+		<item>星期一</item>
+		<item>星期二</item>
+		<item>星期三</item>
+		<item>星期四</item>
+		<item>星期五</item>
+		<item>星期六</item>
+	</string-array>
+    -->
+
+    <string name="lockscreen_charged">已充满</string>
+    <string name="lockscreen_plugged_in">正在充电</string>
+    <string name="lockscreen_low_battery">电量低</string>
+    <!--
+	<string name="battery_level">电量</string>
+	<string name="battery_plugged">充电中</string>
+	<string name="battery_status_unknown">unknown</string>
+	<string name="battery_status_charging">charging</string>
+	<string name="battery_status_discharging">discharging</string>
+	<string name="battery_status_not_charging">not charging</string>
+	<string name="battery_status_full">full</string>
+	
+	<string name="battery_health_unknown">未知</string>
+	<string name="battery_health_overheat">过热</string>
+	<string name="battery_health_dead">死亡</string>
+	<string name="battery_health_over_voltage">电压过高</string>
+	<string name="battery_health_unspecified_failure">未知故障</string>
+    -->
+
+    <string name="current_color">这是当前的颜色</string>
+    <string name="main_screen">主界面</string>
+    <string name="toast_warning">别选了 超过5个了</string>
+    <string name="others">其他</string>
+    <string name="restore_defaults">恢复默认</string>
+    <!-- <string name="recent_app">最近打开的应用程序</string> -->
+    <string name="emergency_calls_only">emergency_calls_only</string>
+
+    <string name="lost">剩余 </string>
+    <string name="fen">积分 </string>
+    <string name="lostfen">剩余积分不足！</string>
+
+    <color name="white">#ffffffff</color>
+    <color name="sliding_tab_text_color_active">@android:color/black</color>
+    <color name="sliding_tab_text_color_shadow">@android:color/black</color>
+
+    <declare-styleable name="SlidingTab"></declare-styleable>
+    <declare-styleable name="SlidingTab_orientation"></declare-styleable>
+
+</resources>

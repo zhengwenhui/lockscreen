@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="lock_screen"
+        android:title="@string/lock_screen" >
+        <!-- <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/select_lock_screen_method"
+            android:entries="@array/department"
+            android:entryValues="@array/department_value"
+            android:key="lock_screen_method"
+            android:title="@string/lock_screen_method" >
+        </ListPreference> -->
+
+        <Preference
+            android:key="lock_screen_method"
+            android:title="@string/lock_screen_method" >
+        </Preference>
+        
+        <!--
+        <CheckBoxPreference
+			android:title="@string/set_lock_screen"
+			android:key="set_lock_screen"
+			android:defaultValue="false">
+		</CheckBoxPreference> 
+		android:dependency="set_lock_screen"
+        -->
+
+        <com.zwh.lockscreen.set.LockSetMultiSelectListPreference
+            android:dialogTitle="@string/set_lock_screen_method_dialog"
+            android:key="lock_set"
+            android:title="@string/set_lock_screen_method" >
+        </com.zwh.lockscreen.set.LockSetMultiSelectListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="background"
+        android:title="@string/background" >
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/background_picture"
+            android:entries="@array/background"
+            android:entryValues="@array/background_value"
+            android:key="background_picture"
+            android:title="@string/background_picture" >
+        </ListPreference>
+
+        <!-- android:persistent="true" -->
+        <com.zwh.lockscreen.set.ColorPickerPreference
+            android:dialogTitle="@string/colorpiker_set"
+            android:key="colorpiker"
+            android:summary="@string/colorpiker_sample"
+            android:title="@string/colorpiker" />
+
+        <com.zwh.lockscreen.set.AlphaSeekBarPreference
+            android:key="background_color_alpha"
+            android:title="@string/background_color_alpha" >
+        </com.zwh.lockscreen.set.AlphaSeekBarPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="show"
+        android:title="@string/show" >
+        <com.zwh.lockscreen.set.ShowChoiceMultiSelectListPreference
+            android:dialogTitle="@string/show_choice"
+            android:entries="@array/show_choice"
+            android:entryValues="@array/show_choice_value"
+            android:key="show_choice"
+            android:title="@string/show_choice" >
+        </com.zwh.lockscreen.set.ShowChoiceMultiSelectListPreference>
+
+        <com.zwh.lockscreen.set.ColorPickerPreference
+            android:dialogTitle="@string/show_set"
+            android:key="show_set"
+            android:summary="colorpiker_sampl"
+            android:title="@string/show_set" />
+
+        <!--
+      		<ListPreference
+			android:title="@string/show_set"
+			android:key="show_set"
+			android:entries="@array/show_set"
+			android:entryValues="@array/show_set_value"
+			android:defaultValue="0"
+			android:dialogTitle="@string/show_set">
+		</ListPreference>
+        -->
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/voice_vibrate" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="voice"
+            android:title="@string/voice" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="vibrate"
+            android:title="@string/vibrate" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/others" >
+        <Preference
+            android:key="restore_defaults"
+            android:title="@string/restore_defaults" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

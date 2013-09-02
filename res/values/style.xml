@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme" parent="android:Theme.Wallpaper">      
+     <!-- windowNoTitle设置为true，去掉标题栏       parent="android:Theme.Wallpaper" -->       
+     <item name="android:windowNoTitle">true</item>  
+   </style>
+
+   <style name="Transparent">
+        <item name="android:background">@drawable/btn_default_transparent</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextAppearance.SlidingTabActive"
+        parent="@android:attr/textAppearanceMedium">
+        <item name="android:textColor">@color/sliding_tab_text_color_active</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="TextAppearance.SlidingTabNormal" 
+        parent="@android:attr/textAppearanceMedium">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:shadowColor">@color/sliding_tab_text_color_shadow</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+</resources>
+<!-- 	 <item name="android:windowFullscreen">true</item>  -->
